@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java when iterating through arrays. The `BuggySum.java` file contains the erroneous code, while `CorrectedSum.java` provides the corrected version.  The error arises from using `<=` instead of `<` in the loop condition, resulting in an attempt to access an element beyond the array's bounds.
